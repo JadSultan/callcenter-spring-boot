@@ -17,8 +17,6 @@ public class ClientEntity {
     @Column
     private String name;
 
-//    @Pattern(regexp="^[a-zA-Z0-9]{3}",message="length must be 3")
-
     @Pattern(regexp = "^[0-9]{5,50}$")
     @Column
     private String phone_nbr;
